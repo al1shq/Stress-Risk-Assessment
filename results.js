@@ -219,5 +219,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Check if the current page's URL matches a specific one
     if (window.location.pathname.includes('Results.html')) {
         changeText();
+        console.log("Results page loaded");
     }
 });
