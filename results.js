@@ -217,7 +217,7 @@ function changeText() {
 
 document.addEventListener('DOMContentLoaded', function() {
     // Check if the current page's URL matches a specific one
-    if (window.location.pathname === '/Results.html') {
+    if (window.location.pathname.includes('Results.html')) {
         changeText();
     }
 });
